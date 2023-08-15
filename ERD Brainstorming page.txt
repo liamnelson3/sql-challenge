@@ -1,0 +1,23 @@
+titles = Possible Job Titles with an associated ID
+
+departments = lists Departments and their associated ID
+
+dept_emp = Tracks which Department each individual Employee works in
+
+dept_manager = Tracks which employees are the Managers of what Department
+
+salaries = Tracks the Salary of each Employee
+
+employees = Lists all employees and their prelimenary information
+
+
+
+X- Each Employee can only have one Salary and vice versa (one to one relationship)
+
+X- Each Employee can only have one title, but the same title is shared across multiple employees (one to many/many to one)
+
+X- Each Employee can only work in one department, but a department can have many employees (one to many/many to one)
+
+X- a department can have multiple employees serve as manager, but an employee can only manage one department (one to many/many to one)
+
+- 
